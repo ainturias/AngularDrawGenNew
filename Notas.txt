@@ -1,0 +1,74 @@
+framework next
+tiene su propio lado backend pero no tan potente
+se está usando canvas js //librería de puntos y líneas
+	- es de W3School
+se está usando angular 17
+liveblocks: librería para los sockets
+	- primero creamos nuevo proyecto, pide el equipo de trabajo
+	- luego del equipo de trabajo de recién creamos el proyecto.
+	- siempre le damos development, luego en crear.
+	- nos vamos a APK, esto se encuentra en el archivo .env, pegamos las 2 llaves, la publica y privada.
+aistudio.google.com/apikey : esto es para la ia, y también se encuentra en .env
+	- nos registramos, luego nos vamos a "Get Api key".
+	- crear llave de API
+Base de Datos: se encuentra en el .env
+
+
+/prisma
+- se está recargando la base de datos.
+
+/src	-> es donde está el software
+- /angular-generator	-> es donde genero el angular, el proyecto se está generando manualmente.
+- archivo=useAngularProjectGenerator.tsx
+	- const angularProject //le estoy diciendo que mi proyecto angular va a generar todos estos paquetes.
+	- const JSzip // con esta librería se está creando los archivos.
+	- const generatePackageJson //genera el archivo packageJson del angular, se está colocando todo manualmente de lo que va a ocupar.
+
+	- const generateAppTemplate // es la clase más importante para generar todo el diseño del boceto es esta.
+	//captura toda la pantalla del canvas. (es donde se muestra el login), lo captura toda la pantalla.
+	//luego lo va a parsear con un json
+	//y que gracias al "for" va a ir recorriendo la página y va a agarrar el primer elemento y trata de copiar todos sus atributos, luego vuelve y sigue copiando todos sus atributos, copia la dimensión, el color, la posición, etc.
+
+
+**************************************************************************
+APK GENERADA
+/src/app/components
+- /angular generator: es la clase donde genera el angular.
+- /canvas: es donde están todos los elementos.
+	- son los elementos o componentes utilizados.
+	- ahí también está cuando se va a crear, con qué atributos iniciales vamos a generarlos. se puede decir como atributos base.
+- /canvas/canvas.tsx: es donde se pinta todo el diseño.
+	- aquí también está la ia, está el prompt y se lo hace a gemini(google)
+- /liveblocks: es para el socket o tiempo real.
+	- es una librería de react.
+	- brinda un servicio de socket y tiene muchas funcionalidades.
+
+*******************************************************************************
+para borrar un elemento o proyecto utilizamos el <-- del teclado, NO el suprimir.
+
+para invitar a un compañero tenemos que añadir el correo, luego abrimos otra ventana y probamos lo de el tiempo real.
+hay un bug que sale la cantidad de salas x invitados o algo así.
+
+localhost:3000/dashboard
+
+tenemos que primero registrarnos
+
+la contraseña tiene que tener como mínimo 8 caracteres
+
+PARA AÑADIR UN BOCETO:
+creamos un nuevo trabajo, luego le damos en boceto a diseño y seleccionamos.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
